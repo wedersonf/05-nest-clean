@@ -2,7 +2,7 @@ import { makeAnswer } from 'test/factories/make-answer'
 import { OnAnswerCreated } from './on-answer-created'
 import { InMemoryAnswerAttachmentsRepository } from 'test/repositories/in-memory-answer-attachments'
 import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-repository'
-import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attachmentsRepository'
+import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attachments-repository'
 import {
   SendNotificationUseCase,
   SendNotificationUseCaseRequest,
